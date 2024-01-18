@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>FourierGNN: Rethinking Multivariate Time Series Forecasting from a Pure Graph Perspective</title>
+      <link href="/post/821f9d33.html"/>
+      <url>/post/821f9d33.html</url>
+      
+        <content type="html"><![CDATA[<ul><li>论文地址：()[<a href="https://arxiv.org/abs/2311.06190]">https://arxiv.org/abs/2311.06190]</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 论文 </category>
+          
+          <category> NIPS </category>
+          
+          <category> 2023 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 时间序列预测 </tag>
+            
+            <tag> 频域 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/post/4a17b156.html"/>
       <url>/post/4a17b156.html</url>
