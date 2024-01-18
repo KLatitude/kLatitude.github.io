@@ -8,7 +8,7 @@
       <link href="/post/821f9d33.html"/>
       <url>/post/821f9d33.html</url>
       
-        <content type="html"><![CDATA[<ul><li>论文地址：()[<a href="https://arxiv.org/abs/2311.06190]">https://arxiv.org/abs/2311.06190]</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<ul><li>论文地址：<a href="https://arxiv.org/abs/2311.06190">https://arxiv.org/abs/2311.06190</a></li></ul><h1 id="研究背景"><a href="#研究背景" class="headerlink" title="研究背景"></a>研究背景</h1><h2 id="难点"><a href="#难点" class="headerlink" title="难点"></a>难点</h2><ul><li>现有的基于GNN的方法通常需要图网络（GCN）捕获序列间关系（空间），时序网络（LSTM）捕获序列内关系（时间）</li><li>两个网络之间不确定的兼容性使得设计网络结构存在困难</li><li>分离的时空建模违反了真实世界中统一的时空依赖关系</li></ul><h1 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h1><h2 id="想法"><a href="#想法" class="headerlink" title="想法"></a>想法</h2><ul><li>将时间序列中的每个值看成一个图节点，从而建立时空全连接图，图的结点个数为$N * T$，$N$表示序列个数，$T$表示时间长度</li><li>直接在全连接图上进行$GCN$等操作的时间复杂度过高，因此本问题提出$FGO$操作实现更高效的矩阵乘法</li></ul><h2 id="具体结构"><a href="#具体结构" class="headerlink" title="具体结构"></a>具体结构</h2><h3 id="FGO-Fourier-Graph-Operator"><a href="#FGO-Fourier-Graph-Operator" class="headerlink" title="FGO(Fourier Graph Operator)"></a>FGO(Fourier Graph Operator)</h3><p><img src="/1.png" alt="Definition of FGO"></p>]]></content>
       
       
       <categories>
